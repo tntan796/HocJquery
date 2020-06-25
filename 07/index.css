@@ -1,0 +1,52 @@
+.signIn {
+	width: 300px;
+	background: #F7F7F7;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px gray;
+	position: fixed;
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+.signIn label {
+	font-size: 12px;
+}
+.signIn__title {
+	font-weight: bold;
+	color: #234F52;
+}
+
+.signIn__email span, .signIn__confirmPassword span, .signIn__username span, .signIn__password span{
+    top: 32;
+    left: 17;
+    color: #234F32;
+}
+
+.signIn__email input, .signIn__username input, .signIn__email input, .signIn__confirmPassword input, .signIn__password input, .login__username input, .login__password input{
+    padding-left: 28px;
+}
+
+/*Form login*/
+.login {
+	width: 300px;
+	background: #F7F7F7;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px gray;
+	position: fixed;
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+.login__username span, .login__password span {
+	top: 35;
+    left: 17;
+    color: #234F32;
+}
+
+.login label {
+	font-size: 12px;
+}
+.login__title {
+	font-weight: bold;
+	color: #234F52;
+}

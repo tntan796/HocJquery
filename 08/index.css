@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+}
+
+.hieuung {
+	width: 400px;
+	margin: auto;
+}
+
+.motkhoi h3 {
+	background: url(./imgs/up.png) no-repeat 96% green;
+	background-size: 50px;
+	color: white;
+	padding: 10px 12px;
+}
+
+.motkhoi .ndmotkhoi {
+	padding: 10px;
+
+}
+
+.xanh {
+	background: url(./imgs/down.png) no-repeat 96% #f1c40f !important;
+	background-size: 50px !important;
+}
